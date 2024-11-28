@@ -10,7 +10,7 @@ services:
             - mynet
           environment:
             - MYSQL_ROOT_PASSWORD=pass@123
-            - MYSL_DATABASE=wordpressdb
+            - MYSQL_DATABASE=wordpressdb
 
         website:
           image: wordpress
