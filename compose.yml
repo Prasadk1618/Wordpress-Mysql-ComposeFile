@@ -5,7 +5,7 @@ services:
           ports:
             - 3306
           volumes:
-            - myvol:/var/lib/mysql
+            - myvol:/var/lib/sql
           networks:
             - mynet
           environment:
